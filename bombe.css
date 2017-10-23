@@ -7,6 +7,7 @@ body{
     height: 510px;
     width: 550px;
     position: relative;
+
     display: flex;
     flex-wrap: wrap;
 }
@@ -15,7 +16,7 @@ body{
     width: 50px;
 }
 #cartman {
-    position: relative;
+    position: absolute;
     top: 0;
     left: 0;
 }
@@ -24,4 +25,9 @@ body{
     top: 0;
     left: 0;
     visibility: hidden;
+}
+#ennemi {
+    position: absolute;
+    top: 200px;
+    left: 200px;
 }
