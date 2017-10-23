@@ -1,0 +1,16 @@
+#container {
+    height: 510px;
+    width: 550px;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+.tuiles {
+    height: 50px;
+    width: 50px;
+}
+#cartman {
+    position: relative;
+    top: 0;
+    left: 0;
+}
