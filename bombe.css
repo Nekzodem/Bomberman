@@ -1,3 +1,8 @@
+body{
+	background-color: #306A51;
+	background-image: url(montagne5.png);
+	background-repeat: repeat;    
+}
 #container {
     height: 510px;
     width: 550px;
