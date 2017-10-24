@@ -4,16 +4,12 @@ body{
 	background-repeat: repeat;    
 }
 #container {
-    height: 510px;
-    width: 550px;
+    height: 800px;
+    width: 800px;
     position: relative;
 
     display: flex;
     flex-wrap: wrap;
-}
-.tuiles {
-    height: 50px;
-    width: 50px;
 }
 #cartman {
     position: absolute;
@@ -30,4 +26,10 @@ body{
     position: absolute;
     top: 200px;
     left: 200px;
+}
+.tuiles {
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    background-color: red;
 }
