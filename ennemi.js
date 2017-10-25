@@ -1,3 +1,4 @@
+/*
 var ennemi = document.getElementById("ennemi"),
     ennemi_top = parseInt(getComputedStyle(ennemi).top),
     ennemi_left = parseInt(getComputedStyle(ennemi).left); 
@@ -37,3 +38,4 @@ function danse() {
         ennemi.style.left = ennemi_left + 'px';
     }
 }
+*/

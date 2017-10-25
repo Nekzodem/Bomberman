@@ -1,3 +1,4 @@
+/* 
 var cartman = document.getElementById("cartman"),
     car_top = parseInt(getComputedStyle(cartman).top),
     car_left = parseInt(getComputedStyle(cartman).left); 
@@ -45,3 +46,5 @@ function moveCartman (e) {
 window.addEventListener("keydown", function(e){
     moveCartman(e);
 }, false);
+
+*/
