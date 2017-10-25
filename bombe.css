@@ -1,12 +1,10 @@
 body{
-	background-color: #306A51;
-	background-image: url(montagne5.png);
-	background-repeat: repeat;    
 }
-
+img{
+    width:1400px;
+    height:900px;
+}
 #container {
-    height: 800px;
-    width: 800px;
     position: relative;
     display: flex;
     flex-wrap: wrap;
