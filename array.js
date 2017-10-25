@@ -29,19 +29,13 @@ for(var i=0; i < grille.length; i++) {
         element.style.left = j*50+"px";
 
         if(loc == 0) {
-            element.style.backgroundColor = 'white';
         } else if(loc == 1) {
-            element.style.backgroundColor = 'white'
         } else if(loc == 2) {
-            element.style.backgroundColor = 'red';
         } else if(loc == 3) {
-            element.style.backgroundColor = 'green';
         } else if(loc == 4) {
-            element.style.backgroundColor = 'grey';
+            element.style.backgroundImage = 'url("images/poubelles.png")';
         } else if(loc == 5) {
-            element.style.backgroundColor = 'black';
         } else if(loc == 6) {
-            element.style.backgroundColor = 'pink';
         } 
 
     }
@@ -61,7 +55,7 @@ function deplacement(e) {
             if(grille[i-1][j] != 9 && grille[i-1][j] != 5 && grille[i-1][j] != 6) {
                 i--;
                 moveCartman(i,j);
-                cartman.style.backgroundImage = url("");
+                cartman.style.backgroundImage = 'url("images/cartface")';
                 console.log (i,j);
             }
             else {
@@ -73,7 +67,7 @@ function deplacement(e) {
             if(grille[i+1][j] != 9 && grille[i+1][j] != 5 && grille[i+1][j] != 6) {
                 i++;
                 moveCartman(i,j);
-                cartman.style.backgroundImage = url("");
+                cartman.style.backgroundImage = 'url("images/cartdos")';
                 console.log (i,j);
             }
             else {
@@ -85,7 +79,7 @@ function deplacement(e) {
             if(grille[i][j-1] != 9 && grille[i][j-1] != 5 && grille[i][j-1] != 6) {
                 j--
                 moveCartman(i,j);
-                cartman.style.backgroundImage = url("");
+                cartman.style.backgroundImage = 'url("images/cartg")';
                 console.log (i,j);
             }
             else {
@@ -97,7 +91,7 @@ function deplacement(e) {
             if(grille[i][j+1] != 9 && grille[i][j+1] != 5 && grille[i][j+1] != 6) {
                 j++;
                 moveCartman(i,j);
-                cartman.style.backgroundImage = url("");
+                cartman.style.backgroundImage = 'url("images/cartd")';
                 console.log (i,j);
             }
             else {
@@ -109,7 +103,7 @@ function deplacement(e) {
             if(grille[o-1][k] !=9 && grille[o-1][k] != 5 && grille[o-1][k] != 6) {
                 o--;
                 moveKraig(o,k);
-                kraig.style.backgroundImage = url("");
+                kraig.style.backgroundImage = 'url("images/cartd")';
             }
             else {
                 //rien
@@ -120,7 +114,7 @@ function deplacement(e) {
             if(grille[o+1][k] !=9 && grille[o+1][k] != 5 && grille[o+1][k] != 6) {
                 o++;
                 moveKraig(o,k);
-                kraig.style.backgroundImage = url("");
+                kraig.style.backgroundImage = 'url("images/cartd")';
             }
             else {
                 //rien
@@ -131,7 +125,7 @@ function deplacement(e) {
             if(grille[o][k-1] !=9 && grille[o][k-1] != 5 && grille[o][k-1] != 6) {
                 k--;
                 moveKraig(o,k);
-                kraig.style.backgroundImage = url("");
+                kraig.style.backgroundImage = 'url("images/cartd")';
             }
             else {
                 //rien
@@ -142,7 +136,7 @@ function deplacement(e) {
             if(grille[o][k+1] !=9 && grille[o][k+1] != 5 && grille[o][k+1] != 6) {
                 k++;
                 moveKraig(o,k);
-                kraig.style.backgroundImage = url("");
+                kraig.style.backgroundImage = 'url("images/cartd")';
             }
             else {
                 //rien

@@ -1,13 +1,15 @@
 body{
-	background-color: #306A51;
-	background-image: url(montagne5.png);
-	background-repeat: repeat;    
+    background-image: url("img/Bomberpark.png");
+    background-repeat: no-repeat;
 }
 
 #container {
-    height: 800px;
-    width: 800px;
     position: relative;
+    background-image: url("images/map.png");
+    background-repeat: no-repeat;
+    height: 500px;
+    width: 500px;
+    
     display: flex;
     flex-wrap: wrap;
 }
@@ -43,5 +45,4 @@ body{
     position: absolute;
     height: 50px;
     width: 50px;
-    background-color: red;
 }
