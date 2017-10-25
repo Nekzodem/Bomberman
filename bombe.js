@@ -4,36 +4,23 @@ var container = document.getElementById('container');
                 bomb.setAttribute('class','bomb');  
                 bomb.style.top = cartman.style.top;
                 bomb.style.left = cartman.style.left;                                         
-                container.appendChild(bomb);
-                setTimeout("removebomb()",3000);
-    } 
-    function removebomb() {
-        bomb.removeAttribute('class','bomb');
-    } 
-                
+                container.appendChild(bomb); removeBomb(bomb);
 
-                //attendre 2 secondes et détruire
-    
+}  
+                      
+function removeBomb(bomb){
+    setTimeout(function(){
+        container.removeChild(bomb); explosionBomb(x,y);
+    },2000);                                                                                                                
+}
 
 window.addEventListener("keydown", function(e){
     console.log("test");
     var key = e.keyCode || e.which;
     switch (key) {
-           case 16:
-           case 69:
+           case 16:           
                createbomb();
                break;  
     }
 }, false);
-    
 
-
-
-
-/*
-
-createBombBroadcast:function(team,name,x,y){ 
-    console.log('socket create bomb'+team+' '+name+' x:'+x+' y:'+y); 
-    socket.emit('Game.createBombBroadcast',team,name,x,y); 
-}
- */

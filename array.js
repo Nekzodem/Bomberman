@@ -28,7 +28,7 @@ for(var i=0; i < grille.length; i++) {
         element.style.top = i*50+"px";
         element.style.left = j*50+"px";
 
-        if(loc == 0) {
+       /* if(loc == 0) {
             element.style.backgroundColor = 'white';
         } else if(loc == 1) {
             element.style.backgroundColor = 'blue';
