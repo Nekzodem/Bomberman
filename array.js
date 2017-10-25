@@ -103,7 +103,7 @@ function deplacement(e) {
             if(grille[o-1][k] !=9 && grille[o-1][k] != 5 && grille[o-1][k] != 6) {
                 o--;
                 moveKraig(o,k);
-                kraig.style.backgroundImage = 'url("images/cartd")';
+                kraig.style.backgroundImage = 'url("images/kraigface")';
             }
             else {
                 //rien
@@ -114,7 +114,7 @@ function deplacement(e) {
             if(grille[o+1][k] !=9 && grille[o+1][k] != 5 && grille[o+1][k] != 6) {
                 o++;
                 moveKraig(o,k);
-                kraig.style.backgroundImage = 'url("images/cartd")';
+                kraig.style.backgroundImage = 'url("images/kraigdos")';
             }
             else {
                 //rien
@@ -125,7 +125,7 @@ function deplacement(e) {
             if(grille[o][k-1] !=9 && grille[o][k-1] != 5 && grille[o][k-1] != 6) {
                 k--;
                 moveKraig(o,k);
-                kraig.style.backgroundImage = 'url("images/cartd")';
+                kraig.style.backgroundImage = 'url("images/kraigg")';
             }
             else {
                 //rien
@@ -136,7 +136,7 @@ function deplacement(e) {
             if(grille[o][k+1] !=9 && grille[o][k+1] != 5 && grille[o][k+1] != 6) {
                 k++;
                 moveKraig(o,k);
-                kraig.style.backgroundImage = 'url("images/cartd")';
+                kraig.style.backgroundImage = 'url("images/kraigd")';
             }
             else {
                 //rien
